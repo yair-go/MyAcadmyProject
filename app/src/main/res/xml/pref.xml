@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="Save Your Password"
+        android:key="SavePass" />
+    <EditTextPreference
+        android:defaultValue="-1"
+        android:singleLine="true"
+        android:title="User Id"
+        android:key="UserID" />
+    <EditTextPreference
+        android:defaultValue="null"
+        android:singleLine="true"
+        android:title="User Name"
+        android:key="UserName" />
+</PreferenceScreen>

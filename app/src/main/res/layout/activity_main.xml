@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="com.example.mailo.myacadmyproject.controller"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.mailo.myacadmyproject.controller.MainActivity">
+
+    <Button
+    android:text="Add Student"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addStudentButton" />
+
+    <Button
+        android:text="Add Lecturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addLecturerButton" />
+
+    <Button
+    android:text="Add Course"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/addCourseButton" />
+
+    <Button
+        android:text="Add StudentCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addStudentCourseButton" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showStudentListButton"
+        android:text="Show Student List"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showCourseListButton"
+        android:text="Show Course List"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/startServiceButton"
+        android:text="start service"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendBroadcastButton"
+        android:text="send broadcast"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getAllContactsButton"
+        android:text="Get All Contacts"/>
+
+</LinearLayout>
